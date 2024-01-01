@@ -17,6 +17,7 @@ const Header = () => {
             placeholder="Search"
             iconInput={SearchIcon}
             classNameInput="absolute top-[13px] flex itemps-center pl-3 left-0 w-7"
+            onChange={e}
           />
           <Button
             className="bg-white rounded-full w-10 h-10 text-primary underline underline-offset-4"

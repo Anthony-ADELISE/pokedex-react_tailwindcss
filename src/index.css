@@ -1,3 +1,152 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-green {
+  background: #74cb48;
+}
+.bg-red {
+  background: #f57d31;
+}
+.bg-blue {
+  background: #6493eb;
+}
+.bg-yellow {
+  background: #ffd76f;
+}
+.bg-brown {
+  background: #544726c8;
+}
+.bg-purple {
+  background: #a43e9e;
+}
+.bg-black {
+  background: #111;
+}
+.bg-pink {
+  background: #fc6cb4;
+}
+.bg-gray {
+  background: #d3d3d3;
+}
+.bg-white {
+  background: #fff;
+}
+.bg-all {
+  background: #999;
+}
+
+.color-fire {
+  background-color: #ff7402;
+}
+.color-grass {
+  background-color: #9bcc50;
+}
+.color-steel {
+  background-color: #9eb7b8;
+}
+.color-water {
+  background-color: #4592c4;
+}
+.color-psychic {
+  background-color: #f366b9;
+}
+.color-ground {
+  background-color: #ab9842;
+}
+.color-ice {
+  background-color: #51c4e7;
+}
+.color-flying {
+  background-color: #3dc7ef;
+}
+.color-ghost {
+  background-color: #4d5b64;
+}
+.color-normal {
+  background-color: #a4acaf;
+}
+.color-poison {
+  background-color: #7e0058;
+}
+.color-rock {
+  background-color: #a38c21;
+}
+.color-fighting {
+  background-color: #d56723;
+}
+.color-dark {
+  background-color: #707070;
+}
+.color-bug {
+  background-color: #729f3f;
+}
+.color-dragon {
+  background-image: linear-gradiend(180deg, #53a4cf 50%, #f16e57 50%);
+}
+.color-electric {
+  background-color: #bba909;
+}
+.color-fairy {
+  background-color: #fdb9e9;
+}
+.color-shadow {
+  background-color: #7b62a3;
+}
+.color-unknow {
+  background-color: #757575;
+}
+
+.text-green {
+  color: #74cb48;
+}
+.text-red {
+  color: #f57d31;
+}
+.text-blue {
+  color: #6493eb;
+}
+.bg-yellow {
+  color: #ffd76f;
+}
+.text-brown {
+  color: #544726c8;
+}
+.text-purple {
+  color: #a43e9e;
+}
+.text-black {
+  color: #111;
+}
+.text-pink {
+  color: #fc6cb4;
+}
+.text-gray {
+  color: #d3d3d3;
+}
+.text-white {
+  color: #fff;
+}
+.text-all {
+  color: #999;
+}
+
+.custom-progress {
+  appearance: none;
+  border-radius: 8px;
+}
+
+custom-progress::-webkit-progress-bar {
+  background-color: #e4e4e4;
+  border-radius: 4px;
+}
+
+.custom-progress::-webkit-progress-value {
+  background-color: #6ee7b7;
+  border-radius: 4px;
+}
+
+.custom-progress::-moz-progress-bar {
+  background-color: #6ee7b7;
+  border-radius: 4px;
+}
